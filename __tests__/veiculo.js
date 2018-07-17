@@ -39,6 +39,13 @@ test('marca', t => {
   t.is(typeof expect, 'string')
 })
 
+test('modelo-marca', t => {
+  const marcaModelo = leite.veiculo.marcaModelo()
+  t.is(typeof marcaModelo, 'object')
+  t.is(typeof marcaModelo.marca, 'string')
+  t.is(typeof marcaModelo.modelo, 'string')
+})
+
 test('especie', t => {
   const expect = leite.veiculo.especie()
   t.is(typeof expect, 'string')

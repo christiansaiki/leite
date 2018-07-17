@@ -11,7 +11,7 @@ const {
   veiculo
 } = require('./lib')
 
-module.exports = function () {
+module.exports = function() {
   const methods = {}
 
   methods.inteiro = inteiro
@@ -58,6 +58,7 @@ module.exports = function () {
     especie: veiculo.especie,
     marca: veiculo.marca,
     modelo: veiculo.modelo,
+    marcaModelo: veiculo.marcaModelo,
     placa: veiculo.placa,
     restricao: veiculo.restricao,
     tipo: veiculo.tipo,
